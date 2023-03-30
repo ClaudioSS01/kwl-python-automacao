@@ -1,19 +1,15 @@
-# kwl-python-automacao
-# Documentação das Funções do Script Python<br>
-</head>
-<body>
-	<h1>Documentação das Funções do Script Python</h1>
+Documentação das Funções do Script Python
 
-	<h2>Descrição</h2>
-	<p>Este script Python define diversas funções que podem ser úteis para automatizar tarefas repetitivas em um sistema operacional Windows. As funções incluem clicar em imagens na tela, escrever texto, apertar teclas, notificar o usuário e muito mais.</p>
+Descrição
+Este script Python define diversas funções que podem ser úteis para automatizar tarefas repetitivas em um sistema operacional Windows. As funções incluem clicar em imagens na tela, escrever texto, apertar teclas, notificar o usuário e muito mais.
 
-	<h2>Exemplos de Uso</h2>
-	<p>Para utilizar as funções definidas no script Python, basta importá-las para o seu próprio código e chamar a função desejada com os argumentos adequados. Por exemplo:</p>
+Exemplos de Uso
+Para utilizar as funções definidas no script Python, basta importá-las para o seu próprio código e chamar a função desejada com os argumentos adequados. Por exemplo:
 
-	<pre><code># Importando as funções do script
+Importando as funções do script
 from nome_do_script import *
 
-# Exemplo de uso das funções
+Exemplo de uso das funções
 notificar(conteudo='Bot Citrix executando com sucesso',titulo='Bot Citrix',duracao=10)
 esperar(5)
 clicar_na_imagem('nome_da_imagem.png')
@@ -21,32 +17,29 @@ escreva('Exemplo de texto')
 apertar_tecla('enter')
 segurar_tecla('ctrl')
 apertar(['c'])
-soltar_tecla('ctrl')</code></pre>
+soltar_tecla('ctrl')
 
-	<h2>Lista de Funções</h2>
-	<ul>
-		<li>clicar_na_imagem(nome_da_imagem)</li>
-		<li>click(x, y, segundos=1)</li>
-		<li>escreva(texto)</li>
-		<li>apertar_tecla(tecla)</li>
-		<li>esperar(segundos=1)</li>
-		<li>fale(texto_a_se_falado)</li>
-		<li>notificar(conteudo='Bot Citrix executando com sucesso',titulo='Bot Citrix',duracao=10)</li>
-		<li>enter()</li>
-		<li>tab()</li>
-		<li>alt()</li>
-		<li>seta_para_cima()</li>
-		<li>seta_para_baixo()</li>
-		<li>seta_para_direita()</li>
-		<li>seta_para_esquerda()</li>
-		<li>apertar(nome_da_tecla)</li>
-		<li>segurar_tecla(nome_da_tecla)</li>
-		<li>soltar_tecla(nome_da_tecla)</li>
-		<li>simple_click(x, y, segundos=1)</li>
-		<li>cmd(comando_cmd="echo sem comando")</li>
-		<li>duplo_click(x, y, segundos=1)</li>
-		<li>alt_tab()</li>
-		<li>windows_d()</li>
-	</ul>
-</body>
-</html>
+Lista de Funções
+
+clicar_na_imagem(nome_da_imagem)
+click(x, y, segundos=1)
+escreva(texto)
+apertar_tecla(tecla)
+esperar(segundos=1)
+fale(texto_a_se_falado)
+notificar(conteudo='Bot Citrix executando com sucesso',titulo='Bot Citrix',duracao=10)
+enter()
+tab()
+alt()
+seta_para_cima()
+seta_para_baixo()
+seta_para_direita()
+seta_para_esquerda()
+apertar(nome_da_tecla)
+segurar_tecla(nome_da_tecla)
+soltar_tecla(nome_da_tecla)
+simple_click(x, y, segundos=1)
+cmd(comando_cmd="echo sem comando")
+duplo_click(x, y, segundos=1)
+alt_tab()
+windows_d()
