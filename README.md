@@ -4,11 +4,7 @@
 <br>
 Este script Python define diversas funções que podem ser úteis para automatizar tarefas repetitivas em um sistema operacional Windows. As funções incluem clicar em imagens na tela, escrever texto, apertar teclas, notificar o usuário e muito mais.
 <br>
-<b>Exemplos de Uso</b><br>
-Para utilizar as funções definidas no script Python, basta importá-las para o seu próprio código e chamar a função desejada com os argumentos adequados. Por exemplo:
-<br>
-Importando as funções do script
-<br>
+
 
 <br>
 
