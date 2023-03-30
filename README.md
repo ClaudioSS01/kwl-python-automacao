@@ -21,6 +21,7 @@ apertar_tecla('enter')
 segurar_tecla('ctrl')
 apertar(['c'])
 soltar_tecla('ctrl')
+
 ```
 <br>
 
