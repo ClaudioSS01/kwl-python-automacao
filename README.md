@@ -1,8 +1,5 @@
 # kwl-python-automacao
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Documentação das Funções do Script Python</title>
+# Documentação das Funções do Script Python<br>
 </head>
 <body>
 	<h1>Documentação das Funções do Script Python</h1>
