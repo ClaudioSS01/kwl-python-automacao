@@ -9,20 +9,7 @@ Para utilizar as funções definidas no script Python, basta importá-las para o
 <br>
 Importando as funções do script
 <br>
-```
-from nome_do_script import *
 
-Exemplo de uso das funções
-notificar(conteudo='Bot Citrix executando com sucesso',titulo='Bot Citrix',duracao=10)
-esperar(5)
-clicar_na_imagem('nome_da_imagem.png')
-escreva('Exemplo de texto')
-apertar_tecla('enter')
-segurar_tecla('ctrl')
-apertar(['c'])
-soltar_tecla('ctrl')
-
-```
 <br>
 
 <b>Lista de Funções</b><br>
